@@ -5,10 +5,10 @@ const mysql = require('mysql');
 const url = "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3"
 
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "Ras050701",
-    database: 'exam'
+    host: "HOST",
+    user: "USERNAME",
+    password: "PASSWORD",
+    database: 'SCHEMA'
 });
 
 async function scrapeData(){
